@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Movies app</h1>
+      <nav>
+        <form class="search__form">
+          <input type="text" placeholder="Rechercher..." />
+        </form>
+
+        <div>
+          <a href="#">
+            <i class="fa fa-bell"></i>
+          </a>
+          <img
+            src="https://images.unsplash.com/photo-1514136649217-b627b4b9cfb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"
+            alt=""
+          />
+          <a href="#" class="btn">Join Premium</a>
+        </div>
+      </nav>
+    </header>
+    <main class="main__content">
+      <div class="container">
+        <section class="padding">
+          <article class="movies trending">
+            <div class="header">
+              <h2>Tendances</h2>
+              <a href="#">
+                Tout voir
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+            <div class="movie__list">
+              <div class="movie">
+                <img
+                  src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/06/oppenheimer-poster-cillian-murphy.png"
+                  alt="Affiche du film Oppenheimer"
+                />
+                <h3>Oppenheimer</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>130 min</span>
+                </p>
+              </div>
+              <div class="movie">
+                <img
+                  src="https://images.unsplash.com/photo-1457732815361-daa98277e9c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  alt="Affiche du film Samiksha "
+                />
+                <h3>Samiksha</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>125 min</span>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="movies">
+            <div class="header">
+              <h2>Derniers ajouts</h2>
+              <a href="#">
+                Tous voir
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+            <ul class="movie__list">
+              <li class="movie">
+                <img
+                  src="img/avengers-infinity-war.png"
+                  alt="Affiche du film Avengers infinity war"
+                />
+                <h3>Avengers Infinity War</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>160 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img
+                  src="img/a-call-to-spy.jpg"
+                  alt="Affiche du film a call to spy"
+                />
+                <h3>A call to spy</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>120 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img src="img/cocorico.jpg" alt="Affiche du film cocorico" />
+                <h3>Cocorico</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>90 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img
+                  src="img/la-planete-des-singes-nouveau-royaume.jpg"
+                  alt="Affiche du film la planète des singes le nouveau royaume"
+                />
+                <h3>La planète des singes le nouveau royaume</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>125 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img
+                  src="img/james-bond-mourir-peut-attendre.jpg"
+                  alt="Affiche du film mourir peut attendre"
+                />
+                <h3>Mourir peut attendre</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>180 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img
+                  src="img/spiderman-no-way-home.jpg"
+                  alt="Affiche du film spiderman no way home"
+                />
+                <h3>Spiderman no way home</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>130 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img
+                  src="img/the-lucky-one.jpg"
+                  alt="Affiche du film the lucky one"
+                />
+                <h3>The lucky one</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>115 min</span>
+                </p>
+              </li>
+              <li class="movie">
+                <img
+                  src="img/un-p-tit-truc-en-plus.jpg"
+                  alt="Affiche du film Un p'tit truc en plus"
+                />
+                <h3>Un p'tit truc en plus</h3>
+                <p class="time">
+                  <i class="fa fa-clock"></i>
+                  <span>145 min</span>
+                </p>
+              </li>
+            </ul>
+          </article>
+        </section>
+        <aside class="search-by-tags">
+          <h2>Mots clés</h2>
+          <ul class="tags">
+            <li><a href="#">#2024</a></li>
+            <li><a href="#">#Nouveautés</a></li>
+            <li><a href="#">#4K</a></li>
+            <li><a href="#">#Derniers ajouts</a></li>
+            <li><a href="#">#Populaires</a></li>
+            <li><a href="#">#Comédie</a></li>
+            <li><a href="#">#Action</a></li>
+            <li><a href="#">#Famille</a></li>
+            <li><a href="#">#Triller</a></li>
+            <li><a href="#">#Marvel</a></li>
+            <li><a href="#">#Horreur</a></li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <span>Site créé par aperbet56</span>
+    </footer>
+  </body>
+</html>
