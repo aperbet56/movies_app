@@ -229,3 +229,43 @@ footer {
     }
 }
 
+/**** Responsive design mobile ****/
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: 220px;
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+        margin: 0.5em;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav > div a i {
+        margin-left: 0;
+    }
+
+    nav,
+    .search__form, 
+    nav input{
+        width: 100%;
+    }
+
+    .movies.trending .movie__list,
+    .movies .movie__list {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .movies .header h2,
+    .movies .header a {
+        font-size: 1em;
+    }
+}
