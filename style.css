@@ -212,3 +212,20 @@ footer {
     padding: 1em;
 }
 
+/**** Responisve design tablette ****/
+
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .padding, .search-by-tags {
+        width: 100%;
+    }
+
+    .search-by-tags {
+        border-left: none;
+        border-bottom: 1px solid #dddddd;
+    }
+}
+
