@@ -6,7 +6,7 @@ Création d'un site de recherche de film en HTML5 et CSS3.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/movies_app/
 
 ## Développez avec
 
