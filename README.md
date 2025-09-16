@@ -1,5 +1,7 @@
 ## MOVIES APP
 
+![Design preview for the movie app project](./img/banner.png)
+
 ## Le challenge
 
 Création d'un site de recherche de film en HTML5 et CSS3.
